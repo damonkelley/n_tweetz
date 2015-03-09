@@ -10,7 +10,7 @@ docker run --rm -e "N=10" -e "USERNAME=<username>" -e "TWITTER_SECRET" -e "TWITT
 
 With color output
 ```sh
-docker run --rm -e "N=10" -e "USERNAME=damonkelley" -e "TWITTER_SECRET" -e "TWITTER_KEY" -t  damonkelley/n_tweetz
+docker run --rm -e "N=10" -e "USERNAME=<username>" -e "TWITTER_SECRET" -e "TWITTER_KEY" -t  damonkelley/n_tweetz
 ```
 
 Explicitly providing the CMD (with colored output)
