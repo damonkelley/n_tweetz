@@ -1,5 +1,5 @@
 # n_tweetz
-A small Docker image for demonstration purposes.
+A Docker image for demonstration purposes.
 
 ### Running
 
