@@ -1,5 +1,5 @@
 # n_tweetz
-A Docker image for demonstration purposes.
+Get the last n tweets of a user. (a.k. A Docker image for demonstration purposes)
 
 ### Running
 
