@@ -4,5 +4,5 @@ RUN mkdir /app
 WORKDIR /app
 ADD . /app/
 RUN pip install -r requirements.txt
-
-CMD python n_tweetz.py $N $USERNAME
+ENTRYPOINT ["python", "n_tweetz.py"]
+CMD ["--help"]
