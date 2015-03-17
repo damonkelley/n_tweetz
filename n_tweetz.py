@@ -11,6 +11,7 @@ SECRET = os.environ.get('TWITTER_SECRET')
 @click.argument('username')
 def get_n_tweetz(n, username):
     """Get the last n Tweets of a user
+
     \b
     N           Number of tweets to return
     USERNAME    Username on Twitter
