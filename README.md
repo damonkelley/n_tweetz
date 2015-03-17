@@ -1,19 +1,12 @@
 # n_tweetz
 Get the last n tweets of a user. (a.k.a A Docker image for demonstration purposes)
 
+### Setup
+Add the Twitter application key and secret to the `env` file.
+
 ### Running
 
-Using the default CMD
 ```sh
-docker run --rm -e "N=10" -e "USERNAME=<username>" -e "TWITTER_SECRET" -e "TWITTER_KEY"  damonkelley/n_tweetz
+docker run --rm env-file=env -t  damonkelley/n_tweetz <n> <username>
 ```
 
-With color output
-```sh
-docker run --rm -e "N=10" -e "USERNAME=<username>" -e "TWITTER_SECRET" -e "TWITTER_KEY" -t  damonkelley/n_tweetz
-```
-
-Explicitly providing the CMD (with colored output)
-```sh
-docker run --rm -e "TWITTER_SECRET" -e "TWITTER_KEY" -t damonkelley/n_tweetz python n_tweetz.py <args>
-```
